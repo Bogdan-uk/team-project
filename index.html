@@ -22,7 +22,7 @@
     />
 
     <script type="module" crossorigin src="/team-project/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/team-project/assets/index-CAKnCxmq.css">
+    <link rel="stylesheet" crossorigin href="/team-project/assets/index-BZZkyaWr.css">
   </head>
   <body>
     <!-- Roma -->
@@ -431,6 +431,56 @@
       <!-- Анна Копець -->
 
       <!-- Людмила Орел -->
+<section class="support">
+  <div class="container">
+    <div class="support-form-container">
+      <h2 class="support-title">Залишились питання? Зв'яжіться з нами!</h2>
+      <h3 class="support-subtitle">Ми тут, щоб допомогти!</h3>
+      <form class="support-form">
+        <div class="support-field">
+          <label for="name" class="support-label">Ім'я</label>
+          <input
+            type="text"
+            class="support-input support-item"
+            name="name"
+            id="name"
+            placeholder="Іван"
+            required
+            minlength="5"
+            maxlength="64"
+          />
+          <p class="text-invalid">Error text</p>
+        </div>
+        <div class="support-field">
+          <label for="email" class="support-label">Електронна пошта</label>
+          <input
+            type="email"
+            class="support-input support-item"
+            name="email"
+            id="email"
+            placeholder="hello@ecotote.com"
+            required
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+          />
+          <p class="text-invalid">Error text</p>
+        </div>
+        <div class="support-field">
+          <label for="message" class="support-label">Повідомлення</label>
+          <textarea
+            name="message"
+            id="message"
+            class="support-textarea support-item"
+            placeholder="Введіть своє повідомлення..."
+            maxlength="500"
+          ></textarea>
+          <p class="text-invalid">Error text</p>
+        </div>
+        <button type="submit" class="support-btn">Надіслати</button>
+      </form>
+    </div>
+    <div class="background-image"></div>
+  </div>
+</section>
 
     </main>
 
