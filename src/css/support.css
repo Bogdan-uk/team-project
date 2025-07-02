@@ -20,12 +20,6 @@
     }
 }
 
-
-.support-form-container {
-    margin-bottom: 24px;
-}
-
-
 .support-title {
     font-family: "Comfortaa", sans-serif;
     font-size: 36px;
@@ -34,9 +28,6 @@
     max-width: 288px;
     margin-bottom: 24px;
 }
-
-
-.support-text {
 
 .support-subtitle {
     font-weight: 400;
@@ -52,11 +43,7 @@
 .support-label {
     line-height: 1.6;
     display: block;
-
-    margin-bottom: 8px;
-
     padding-bottom: 8px;
-
 }
 
 .support-item {
@@ -100,19 +87,11 @@
     border-color: #75D281;
 }
 
-
-.support-item:not(:placeholder-shown):invalid ~ .text-invalid {
-    display: block;
-}
-
-.support-item:not(:placeholder-shown):valid ~ .text-valid {
-
 .support-item:not(:placeholder-shown):invalid~.text-invalid {
     display: block;
 }
 
 .support-item:not(:placeholder-shown):invalid~.text-valid {
-
     display: block;
 }
 
@@ -135,8 +114,6 @@
     text-align: center;
     display: block;
     margin: 0 auto;
-
-
     margin-bottom: 24px;
 
     line-height: 1.6;
@@ -182,9 +159,7 @@
 
     .support-btn {
         margin: 0;
-
         margin-bottom: 24px;
-
         padding: 12px 86px;
         min-width: 249px;
     }
@@ -193,11 +168,7 @@
 @media screen and (min-width: 1440px) {
     .support-container {
         display: flex;
-
-        flex-wrap: wrap;
-
         flex-wrap: wrap ;
-
         gap: 24px;
     }
 
@@ -213,11 +184,6 @@
         }
     }
 
-
-    .support-form-container {
-        margin: 0;
-    }
-
     .support-title {
         font-size: 48px;
         max-width: 644px;
@@ -228,9 +194,7 @@
     }
 
     .support-btn {
-
         margin: 0;
-
         padding: 12px 61px;
         min-width: 198px;
     }
