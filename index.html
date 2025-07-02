@@ -22,7 +22,7 @@
     />
 
     <script type="module" crossorigin src="/team-project/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/team-project/assets/index-D1-GFkfm.css">
+    <link rel="stylesheet" crossorigin href="/team-project/assets/index-DTeeLqxO.css">
   </head>
   <body>
     <!-- Roma -->
@@ -664,7 +664,7 @@
   <div class="container support-container">
     <div class="support-form-container">
       <h2 class="support-title">Залишились питання? Зв'яжіться з нами!</h2>
-      <h3 class="support-subtitle">Ми тут, щоб допомогти!</h3>
+      <p class="support-text">Ми тут, щоб допомогти!</p>
       <form class="support-form">
         <div class="support-field">
           <label for="name" class="support-label">Ім'я</label>
@@ -678,7 +678,8 @@
             minlength="5"
             maxlength="64"
           />
-          <p class="text-invalid">Error text</p>
+          <p class="text-invalid">Поле має містити від 5 до 60 символів!</p>
+          <p class="text-valid">Форма заповнена правильно!</p>
         </div>
         <div class="support-field">
           <label for="email" class="support-label">Електронна пошта</label>
@@ -691,7 +692,8 @@
             required
             pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
           />
-          <p class="text-invalid">Error text</p>
+          <p class="text-invalid">Невірний формат email-адреси!</p>
+          <p class="text-valid">Форма заповнена правильно!</p>
         </div>
         <div class="support-field">
           <label for="message" class="support-label">Повідомлення</label>
@@ -702,7 +704,10 @@
             placeholder="Введіть своє повідомлення..."
             maxlength="500"
           ></textarea>
-          <p class="text-invalid">Error text</p>
+          <p class="text-invalid">
+            Максимальна довжина повідомлення - 500 символів!
+          </p>
+          <p class="text-valid">Форма заповнена правильно!</p>
         </div>
         <button type="submit" class="support-btn">Надіслати</button>
       </form>
